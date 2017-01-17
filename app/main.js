@@ -1,2 +1,2 @@
 var greeter = require("./greet.js");
-document.body.appendChild(greeter());
+document.body.appendChild(greeter);

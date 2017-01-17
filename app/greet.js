@@ -1,5 +1,5 @@
-module.exports = function () {
-    var greet = document.createElement("h1");
-        greet.innerHTML = "Hello World!";
-        return greet;
-}
+module.exports = (function (){
+    var h1 = document.createElement("h1");
+        h1.innerText = "hello world!";
+        return h1;
+})();

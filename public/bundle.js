@@ -45,17 +45,17 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var greeter = __webpack_require__(1);
-	document.body.appendChild(greeter());
+	document.body.appendChild(greeter);
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = function () {
-	    var greet = document.createElement("h1");
-	        greet.innerHTML = "Hello World!";
-	        return greet;
-	}
+	module.exports = (function (){
+	    var h1 = document.createElement("h1");
+	        h1.innerHTML = "hello world!";
+	        return h1;
+	})();
 
 /***/ }
 /******/ ]);
