@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var greeter = __webpack_require__(1);
-	document.body.appendChild(greeter);
+	document.body.appendChild(greeter.h1);
 
 /***/ },
 /* 1 */
@@ -53,8 +53,10 @@
 
 	module.exports = (function (){
 	    var h1 = document.createElement("h1");
-	        h1.innerHTML = "hello world!";
-	        return h1;
+	        h1.innerText = "viva la vida!";
+	        return {
+	            h1: h1
+	        }
 	})();
 
 /***/ }
