@@ -1,7 +1,7 @@
 //http://www.jianshu.com/p/42e11515c10f
 module.exports = {
     //基础打包功能
-    entry: __dirname + "/app/main.js",
+    entry: __dirname + "/app/js/main.js",
     output: {
         path: __dirname + "/public",
         filename: "bundle.js"
