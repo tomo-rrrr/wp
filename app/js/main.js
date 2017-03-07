@@ -1,2 +1,2 @@
-var fuck    = require("./fuck");
+var fuck  = require("./fuck");
 document.body.appendChild(fuck.fuck);

@@ -1,7 +1,7 @@
-module.exports = (function (){
-	var h1 = document.createElement("h1");
-		h1.innerHTML = "what happen to da bundlejs???";
-    return {
-    	fuck: h1
-    }
-})();
+module.exports = (function () {
+	var h2 = document.createElement("h2");
+		h2.innerHTML = "This is not a drill!"
+	return {
+		fuck: h2
+	}
+}());
