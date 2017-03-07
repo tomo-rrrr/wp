@@ -1,5 +1,5 @@
 module.exports = (function (){
     return {
-    	fuck: "fark that u little motherfucker!!"
+    	fuck: "fark that u little motherfucker!!?!"
     }
 })();
